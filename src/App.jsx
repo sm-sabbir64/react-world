@@ -7,6 +7,7 @@ const countriesPromise = fetch("https://openapi.programming-hero.com/api/all#")
 .then(res => res.json())
 
 function App() {
+  
   return (
     <>
     <Suspense fallback={<p>Sabbir Vai loading....</p>}>
